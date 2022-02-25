@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour Package</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="text/css" href="images/logo.png">
+
+    <!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- Material Design for Bootstrap CSS -->
+     <link rel="stylesheet"
+                href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+                integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+                crossorigin="anonymous">
+
+	<!-- Custom Css -->
+	<link rel="stylesheet" type="text/css" href="custom.css">
+
+	<style>
+		.loader_bg
+		{
+			position: fixed;
+			z-index: 999999;
+			background: #fff;
+			width: 100%;
+			height: 100%;
+		}
+
+		.loader
+		{
+			border:0 solid transparent;
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			top: calc(30vh - 75px);
+			left: calc(48.5vw - 75px);
+
+		}
+		.loader:before, .loader:after
+		{
+			content: '';
+			border:1em solid #ff5733;
+			border-radius: 50%;
+			width: inherit;
+			height: inherit;
+			position: absolute;
+			top: 0;
+			left: 0;
+			animation: loader 2s linear infinite;
+			opacity: 0;
+		}
+		.loader:before
+		{
+			animation-delay: .5s;
+		}
+		@keyframes loader{
+			0%
+			{
+				transform: scale(0);
+				opacity: 0;
+			}
+			50%
+			{
+				opacity: 1;
+			}
+			100%
+			{
+				transform: scale(1);
+			}
+		}
+	</style>
+
+</head>
+<body>
+<!-- Loading -->
+<div class="loader_bg">
+		<div class="loader"></div>
+</div>
+	<!-- Nav start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand logo_style text-muted">Legendary Travels & Tour</a>
+        <button class="navbar-toggler" data-target="#Nav" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="Nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item mr-3"><a href="index.html" class="nav-link" class="active">Home</a></li>
+                <li class="nav-item dropdown mr-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                      Tour Programs
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="inbound.html">Inbound Tour</a>
+                      <a class="dropdown-item" href="outbound/outbound.html">Outbound Tour</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Destination
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="destination/yangon.html">Yangon</a>
+                      <a class="dropdown-item" href="destination/mandalay.html">Mandalay</a>
+                      <a class="dropdown-item" href="destination/bagan.html">Bagan</a>
+                      <a class="dropdown-item" href="destination/inle.html">Inle</a>
+                      <a class="dropdown-item" href="destination/pyinoolwin.html">PyinOoLwin </a>
+                      <a class="dropdown-item" href="destination/naypyitaw.html">NayPyiTaw </a>
+                      <a class="dropdown-item" href="destination/beach.html">Beach</a>
+                      <a class="dropdown-item" href="destination/chinstate.html">Chin State</a>
+                    </div>
+                </li>
+               <li class="nav-item mr-3"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item mr-3"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end Nav start -->
+
+    <section class="inner-section">
+		<h2 class="text-center text-muted my-3">Inbound Tours</h2>
+		<hr>
+		<div class="container my-3">
+			<div class="row text-center">
+				
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="images/destination/3.jpg" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour in Yangon</h2>
+							<br>
+							<a href="inbound_yangon.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fafar-production.imgix.net%2Fuploads%2Fimages%2Fpost_images%2Fimages%2FMsULJjAvJS%2Foriginal_0541b23457c6ab030f67d54ed5b13e98.jpg%3F1462942405%3Fixlib%3Drails-0.3.0%26auto%3Dformat%252Ccompress%26crop%3Dentropy%26fit%3Dcrop%26h%3D719%26q%3D80%26w%3D954&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour in Nay Pyi Taw</h2>
+							<br>
+							<a href="inbound_naypyitaw.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="images/destination/4.jpg" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour in Mandalay</h2>
+							<br>
+							<a href="inbound_mandalay.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.walksworldwide.com%2Fimages%2Fgalleries%2FBagan_shutterstock_173538215.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour in Bagan</h2>
+							<br>
+							<a href="inbound_bagan.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmyanmartravelpackagetours.com%2Fwp-content%2Fuploads%2F2015%2F12%2FInle-Lake-by-morning-flight.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour in Inle</h2>
+							<br>
+							<a href="inbound_inle.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.myanmartours.us%2Fwp-content%2Fuploads%2FPwe-Kauk-Waterfalls-Pyin-Oo-Lwin-Myanmar.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour in Pyin Oo Lwin</h2>
+							<br>
+							<a href="inbound_pyinoolwin.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.fodors.com%2Fwp-content%2Fuploads%2F2018%2F06%2FGreece-Best-Beaches-Apella-Karpathos-Dodecanese-02.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Sightseeing</h2>
+							<br>
+							<a href="inbound_beach.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mmtimes.com%2Fsites%2Fmmtimes.com%2Ffiles%2Fnews-images%2Fchin-state-main.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Adventure</h2>
+							<br>
+							<a href="inbound_chin.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.exoticmyanmartravel.com%2Fwp-content%2Fuploads%2F2018%2F02%2FIMG_2990-e1517830016680.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Tour In Kalaw</h2>
+							<br>
+							<a href="kalaw_trekking.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.myanmarseo.com%2Ffile%2Fclient-cdn%2Frealtreasure%2Fwp-content%2Fuploads%2F2019%2F05%2FPindaya-19.jpg&f=1&nofb=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Hiking In Pindaya</h2>
+							<br>
+							<a href="pintaya_trekking.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div> -->
+				<div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://www.myanmarlandtour.com/files/thumb/750/500/uploads/balloons-over-bagan-temples.jpg" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Luxury Tour</h2>
+							<br>
+							<a href="luxury.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-4 col-sm-6 my-5">
+					<div class="card shadow_image">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.behGMaHQiCw4HRZPi8MrPQHaFj%26pid%3DApi&f=1" class="img-fluid">
+						<div class="card-body">
+							<h2 class="card-title text-muted">Highlight Of Myanamr</h2>
+							<br>
+							<a href="highlight1.html"><button class="btn btn-outline-info">View tour</button></a>
+						</div>
+					</div>
+				</div> -->
+				
+			</div>
+		</div>
+	</section>
+	
+
+
+	
+
+	
+
+	
+
+		<!-- Footer -->
+
+		<footer>	
+
+			<div class="container">	
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-6">	
+						<div class="footer_column">	
+							<h4>About Us</h4>
+							<p class="text-muted text-justify">	
+									Legendary Travel & Tour is a registered company in Myanmar, provide first-class corporate travel management services to international and national organizations in Myanmar.
+							</p>
+							<a href="about.html"><button class="btn btn-outline-primary">Read more</button></a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-6">	
+						<div class="footer_column">	
+							<h4>Contact Information</h4>
+							<p class="text-justify text-muted"><i class="fas fa-home fa-sm"></i>	No. 50th Street, Sanchaung Township, Yangon, Myanmar.</p>
+							<p class="text-muted"><i class="fas fa-phone fa-sm"></i>	09 264477480, 0997445867 </p>
+							<p class="text-muted"><i class="fas fa-fax fa-sm"></i>	09 264477480, 0997445867 </p>
+							<p class="text-muted"><i class="fas fa-envelope fa-sm"></i>info@legendarymyanmar.com </p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-6">	
+						<div class="footer_column">
+							<p><a href="images/do_and_dont_english_moht.pdf" target="_blank"><img src="images/homepage/do_and_dont.jpg"></a></p>
+							<div>
+								<a href="images/do_and_dont_english_moht.pdf" target="_blank"><button class="btn btn-outline-primary">Read PDF</button></a>
+							</div>
+						</div>
+						
+
+					</div>
+				</div>	
+			</div>	
+
+		</footer>
+
+		<!-- Footer Copyright -->
+
+		<!-- <div id="footer_copyright">
+			<div class="container">
+				<div class="row">
+					<div class="copyright">
+						<div class="col-md-12">
+							<span class="text-center">Copyright © 2020 Legendary Travels & Tours. Developed by Min Hein Khant</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- Footer Copyright -->
+		<footer class="container-fluid bg-light">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="text-center mt-4 mb-4 text-info"><i class="far fa-snowflake fa-1x fa-spin"></i>&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2020 Legendary Travels & Tours developed by Min Hein Khant&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-snowflake fa-1x fa-spin"></i></p>
+				</div>
+			</div>
+		</footer>
+
+
+<script type="text/javascript" src="bootstrap/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		setTimeout(function(){
+			$(".loader_bg").fadeToggle();
+		},3000);
+	</script>
+
+</body>
+</html>

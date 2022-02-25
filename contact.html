@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Legendary Travels & Tour</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="text/css" href="images/logo.png">
+
+    <!-- fontawesome -->
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- Material Design for Bootstrap CSS -->
+     <link rel="stylesheet"
+                href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+                integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+                crossorigin="anonymous">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" type="text/css" href="custom.css">
+
+  <style>
+    .loader_bg
+    {
+      position: fixed;
+      z-index: 999999;
+      background: #fff;
+      width: 100%;
+      height: 100%;
+    }
+
+    .loader
+    {
+      border:0 solid transparent;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: calc(30vh - 75px);
+      left: calc(48.5vw - 75px);
+
+    }
+    .loader:before, .loader:after
+    {
+      content: '';
+      border:1em solid #ff5733;
+      border-radius: 50%;
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: loader 2s linear infinite;
+      opacity: 0;
+    }
+    .loader:before
+    {
+      animation-delay: .5s;
+    }
+    @keyframes loader{
+      0%
+      {
+        transform: scale(0);
+        opacity: 0;
+      }
+      50%
+      {
+        opacity: 1;
+      }
+      100%
+      {
+        transform: scale(1);
+      }
+  </style>
+
+</head>
+<body>
+<!-- Loading -->
+<div class="loader_bg">
+    <div class="loader"></div>
+</div>
+  <!-- Nav start -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <img src="images/logo.png" class="img-fluid ml-4 pl-3 my-1 logo_image"> -->
+    <a href="index.html" class="navbar-brand logo_style text-muted">Legendary Travels & Tour</a>
+    <button class="navbar-toggler" data-target="#Nav" data-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="Nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto mr-5">
+        <li class="nav-item mr-3"><a href="index.html" class="nav-link" class="active">Home</a></li>
+        <li class="nav-item dropdown mr-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                Tour Programs
+              </a>
+              <div class="dropdown-menu">
+                      <a class="dropdown-item" href="inbound.html">Inbound Tour</a>
+                      <a class="dropdown-item" href="outbound/outbound.html">Outbound Tour</a>
+              </div>
+          </li>
+        <li class="nav-item dropdown mr-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                Destination
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="destination/yangon.html">Yangon</a>
+                      <a class="dropdown-item" href="destination/mandalay.html">Mandalay</a>
+                      <a class="dropdown-item" href="destination/bagan.html">Bagan</a>
+                      <a class="dropdown-item" href="destination/inle.html">Inle</a>
+                      <a class="dropdown-item" href="destination/pyinoolwin.html">PyinOoLwin </a>
+                      <a class="dropdown-item" href="destination/naypyitaw.html">NayPyiTaw </a>
+                      <a class="dropdown-item" href="destination/beach.html">Beach</a>
+                      <a class="dropdown-item" href="destination/chinstate.html">Chin State</a>
+              </div>
+          </li>
+               <li class="nav-item mr-3"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item mr-3"><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- end Nav start -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mt-5">
+      <h3 class="text-center text-muted">Have a Wonderful Trip with Our Company</h3>
+    </div>
+    <div class="col-md-12 mt-5">
+      <h5 class="col-md-12 text-muted text-center">How To Contact With Us</h5>
+      <hr>
+    </div>
+    
+    <div class="col-lg-4 col-md-6 col-sm-12  mt-5">
+      <div class="card shadow">
+        <div class="card-header">
+          <h5 class="text-muted">TELEPHONE</h5>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-phone-square-alt fa-1x my-1"></i>
+          <span>&nbsp;&nbsp;(+95)1-230 1656, 230 2398</span>
+          <br>
+          <i class="fas fa-phone-volume fa-1x my-4"></i>
+          <span class="my-3">&nbsp;&nbsp;230 2399, 09-45060 1930</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12  mt-5">
+      <div class="card shadow ">
+        <div class="card-header">
+          <h5 class="text-muted">WEBSITE & FACEBOOK</h5>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-inbox my-1 fa-1x"></i>
+          <span class="ml-2">www.legendarytravel.com</span><br>
+          <i class="fas fa-envelope fa-1x my-4"></i>
+          <span class="ml-2">legendarytravel@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12  mt-5">
+      <div class="card shadow ">
+        <div class="card-header">
+          <h5 class="text-muted">LOCATION</h5>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-map-marker-alt fa-1x"></i>
+          <span class="ml-2 my-3">No.50 Street/Sanchaung/Township/Yangon</span><br>
+          <i class="fas fa-map-marker-alt fa-1x my-4"></i>
+          <span class="ml-2 my-3">No.89 Room/54/A/KuKi Tower/Mandalay</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="text-muted mt-5 mb-3 inquiry">Travel Inquiry  & Register Form</h4>
+         <p class="inquiry">Especially, Thanks for allowing Legendary to research a fare for your upcoming trip. We will wrok to get you the best price avalilabe. Please fill out the "travel inquiry form" in its entirely, and you will be contacted within 12 hours to discuss your itinerary in Detal.</p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h4 class="text-center text-muted">Register Here!</h4>
+      <hr>
+      <form class="">
+                  
+                    
+                   <div class="form-group">
+                     <label>Name</label>
+                     <input type="text" name="" class="form-control">
+                  </div> 
+                  
+                  <div class="form-group">
+                     <label>Email</label>
+                     <input type="email" name="" class="form-control">
+                  </div>
+                  <div class="form-group">
+                     <label>Phone Number</label>
+                     <input type="number" name="" class="form-control">
+                  </div>
+                  <label class="d-block">Gender</label>
+                  <div class="form-check-inline">
+                     <input type="radio" name="gender" id="male" class="form-check-input" checked="checked">
+                     <label class="form-check-label" for="male">Male</label>
+                  </div>
+                  <div class="form-check-inline">
+                     <input type="radio" name="gender" id="female" class="form-check-input">
+                     <label class="form-check-label" for="female">Female</label>
+                  </div>
+                  <label class="d-block my-3">Tour</label>
+                  <div class="form-check">
+                     <input type="checkbox" name="" id="a" class="form-check-input">
+                     <label class="form-check-label" for="a">Inbound Tour</label>
+                  </div>
+                  <div class="form-check">
+                     <input type="checkbox" name="" class="form-check-input" id="b">
+                     <label class="form-check-label" for="b">Outbound Tour</label>
+                  </div>
+                  <div class="form-group my-3">
+                     <label for="people">Number of Travelers? Adults? Children?</label>
+                     <input type="text" name="" class="form-control" id="people">
+                  </div>
+                  <div class="form-group my-3">
+                     <label for="place">Where would you like to travel?</label>
+                     <input type="text" name="" class="form-control" id="place">
+                  </div>
+                  <div class="form-group my-3">
+                     <label for="place">What is your budget for this trip(per person)?</label>
+                     <input type="text" name="" class="form-control" id="place">
+                  </div>
+                  <label class="d-block">What kind of payment arrangement would you like?</label>
+                  <div class="form-check-inline">
+                     <input type="radio" name="pay" class="form-check-input" checked="checked" id="h">
+                     <label class="form-check-label" for="h">Cash Payment</label>
+                  </div>
+                  <div class="form-check-inline">
+                     <input type="radio" name="pay" class="form-check-input" id="g">
+                     <label class="form-check-label" for="g">Online Payment</label>
+                  </div>
+                  <label class="d-block my-3">How would you like to travel?</label>
+                  <div class="form-check">
+                     <input type="checkbox" name="" class="form-check-input" id="c">
+                     <label class="form-check-label" for="c">Plane</label>
+                  </div>
+                  <div class="form-check">
+                     <input type="checkbox" name="" class="form-check-input" id="d">
+                     <label class="form-check-label" for="d">Car</label>
+                  </div>
+                  <div class="form-check">
+                     <input type="checkbox" name="" class="form-check-input" id="e">
+                     <label class="form-check-label" for="e">Train</label>
+                  </div>
+                  <div class="form-check">
+                     <input type="checkbox" name="" class="form-check-input" id="f">
+                     <label class="form-check-label" for="f">Other</label>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                     <label>Address</label>
+                     <textarea class="form-control"></textarea>
+                  </div>
+                  <input type="submit" name="" class="btn btn-outline-primary  btnsubmit">
+               </form>
+    </div>
+    <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-1by1">
+  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244399.13580747496!2d96.04114344036525!3d16.839423359503545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon!5e0!3m2!1sen!2smm!4v1602264459985!5m2!1sen!2smm"></iframe>
+
+  </div>
+  <p class="text-muted product_style my-3 text-center mt-4 mb-3">Our Team is here to help you</p>
+  <hr>
+  <br>
+                  <img src="images/outboundimages/our team.webp" class="img-fluid">
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244399.13580747496!2d96.04114344036525!3d16.839423359503545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon!5e0!3m2!1sen!2smm!4v1602264459985!5m2!1sen!2smm" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+    </div>
+  </div>
+</div>
+
+  
+
+
+  
+
+  
+
+  
+
+    <!-- Footer -->
+
+    <footer>  
+
+      <div class="container"> 
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">  
+            <div class="footer_column"> 
+              <h4>About Us</h4>
+              <p class="text-muted text-justify"> 
+                  Legendary Travel & Tour is a registered company in Myanmar, provide first-class corporate travel management services to international and national organizations in Myanmar.
+              </p>
+              <a href="about.html"><button class="btn btn-outline-primary">Read more</button></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">  
+            <div class="footer_column"> 
+              <h4>Contact Information</h4>
+              <p class="text-justify text-muted"><i class="fas fa-home fa-sm"></i>  No. 50th Street, Sanchaung Township, Yangon, Myanmar.</p>
+              <p class="text-muted"><i class="fas fa-phone fa-sm"></i>  09 264477480, 0997445867 </p>
+              <p class="text-muted"><i class="fas fa-fax fa-sm"></i>  09 264477480, 0997445867 </p>
+              <p class="text-muted"><i class="fas fa-envelope fa-sm"></i>info@legendarymyanmar.com </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">  
+            <div class="footer_column">
+              <p><a href="images/do_and_dont_english_moht.pdf" target="_blank"><img src="images/homepage/do_and_dont.jpg"></a></p>
+              <div>
+                <a href="images/do_and_dont_english_moht.pdf" target="_blank"><button class="btn btn-outline-primary">Read PDF</button></a>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>  
+      </div>  
+
+    </footer>
+
+    <!-- Footer Copyright -->
+
+    <!-- <div id="footer_copyright">
+      <div class="container">
+        <div class="row">
+          <div class="copyright">
+            <div class="col-md-12">
+              <span class="text-center">Copyright © 2020 Legendary Travels & Tours. Developed by Min Hein Khant</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Footer Copyright -->
+    <footer class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center mt-4 mb-4 text-info"><i class="far fa-snowflake fa-1x fa-spin"></i>&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2020 Legendary Travels & Tours developed by Min Hein Khant&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-snowflake fa-1x fa-spin"></i></p>
+        </div>
+      </div>
+    </footer>
+
+
+<script type="text/javascript" src="bootstrap/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    setTimeout(function(){
+      $(".loader_bg").fadeToggle();
+    },3000);
+  </script>
+
+</body>
+</html>
